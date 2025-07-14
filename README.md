@@ -8,8 +8,7 @@ A web application for detecting emotions in text using a machine learning model 
 - **User Interaction Tracking**: Logs page visits and prediction details in a local SQLite database.
 - **Interactive UI**: Built with Streamlit for a fast, interactive web experience.
 
-## Demo
-![Demo Screenshot](demo_screenshot.png) <!-- Add a screenshot if available -->
+
 
 ## Project Structure
 ```
@@ -57,18 +56,6 @@ You can install them with:
 pip install streamlit altair pandas numpy scikit-learn joblib neattext pytz
 ```
 
-## Usage
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/Emotion-Detection.git
-   cd Emotion-Detection
-   ```
-2. **Install dependencies** (see above).
-3. **Run the app**:
-   ```bash
-   streamlit run app.py
-   ```
-4. **Open your browser** to the local Streamlit URL (usually http://localhost:8501).
 
 ## Logging & Tracking
 - All page visits and predictions are logged in `data/data.db` (SQLite).
@@ -79,8 +66,6 @@ pip install streamlit altair pandas numpy scikit-learn joblib neattext pytz
 - **Dataset**: Add or modify data in `data/emotion_dataset_raw.csv`.
 - **UI**: Customize the Streamlit interface in `app.py`.
 
-## License
-This project is for personal/research use. See [LICENSE](LICENSE) if available.
 
 ## Acknowledgements
 - Inspired by open-source emotion detection datasets and Streamlit community examples.
